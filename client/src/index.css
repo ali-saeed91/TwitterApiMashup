@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.nav-div {
+  /* background-color:#00A3FF ; */
+    /* url("./images/chris-j-davis-7ezFz2Hxd40-unsplash.jpg"); */
+  background-size: cover;
+  overflow: auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 !important;
+  min-width: 100%;
+}
+.color-nav {
+  background-color: rgb(255, 164, 79, 0.2);
+}
+
+input.btn {
+  border-radius: 0 !important;
+  font-family: "Montserrat", sans-serif;
+  background: #394948;
+  border:  solid 1px rgb(153, 153, 153);
+}
+
+input.btn:hover {
+  background: #4e6361;
+  border:  solid 1px rgb(153, 153, 153);
+}
+
+input.btn:focus { 
+  background: #4e6361;
+  border:  solid 1px rgb(153, 153, 153);
+}
+
+a.navbar-brand {
+  font-family: "Yellowtail", cursive;
+  color: #fc4e16 !important;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white !important;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  color: #fc4e16 !important;
+}
+
+::placeholder {
+  color: white;
+}
+
+.splash-main {
+  color: white;
+  margin-top: 100px;
+  padding: 0 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #de3f53;
+  padding: 0 !important;
+}
+
+#welcome {
+  font-size: 3.3rem;
+  color: rgb(223, 223, 223);
+  font-weight: 800;
+  margin-top: 2.8rem;
+}
+
+#tweet {
+  opacity: 0.95;
+  font-size: 5.5rem;
+  margin-bottom: 3rem;
+  font-family: "Yellowtail", cursive;
+  color: #fc4e16 !important;
+}
+
+.error-message {
+  color: red;
+}
+
+.col-4 {
+  margin: 10px 50px;
+}
+
+.btn img {
+  border-radius: 50%;
+}
+
+.container > .tweet-card {
+  margin-top: 20px !important;
+}
+
+.card-row img {
+  border-radius: 50% !important;
+}
+
+.twitter-logo {
+  width: 120px;
+  height: 120px;
+  opacity: 0.8;
+  margin: 0 auto;
+  opacity: 0.2;
+}
+
+.describe {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(223, 223, 223);
+  opacity: 0.95;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding: 0px 80px 0px 80px;
+}
+
+.control-form {
+  width: 90%;
+}
+
+.real-name {
+  color: white;
+}
+
+.user-handle {
+  color: grey;
+}
+
+.tweet-date {
+  color: grey;
+  position: absolute;
+  top: 32px;
+  left: 78px;
+}
+
+.tweet-row {
+  height: 100% !important;
+}
+
+.tweet-col {
+  background-color: rgb(39, 39, 39, 0.7) !important;
+}
+
+.tweet-col.col img {
+  border-radius: 50% !important;
+}
+
+.tweet-text {
+  color: white;
+  margin-left: 65px;
+  text-align: left;
+  padding-right: 80px;
+  padding-bottom: 60px !important;
+}
+
+.retweet-image {
+  position: absolute;
+  left: 80px;
+  bottom: 8px;
+  padding: 0px 20px !important;
+}
+
+.like-image {
+  margin: 15px 0px 0px 0px;
+  left: 220px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.retweet-num {
+  margin-bottom: 0;
+  position: absolute;
+  left: 130px;
+  bottom: 8px;
+  color: white;
+}
+
+.like-num {
+  margin-bottom: 0;
+  left: 248px;
+  bottom: 8px;
+  position: absolute;
+  color: white;
+}
+
+.favorite-name {
+  color: black;
+}
+
+.btn-warning {
+  background: rgb(255, 218, 149) !important;
+  width: 175px;
+  height: 75px;
+  margin: 5px;
+}
+
+.button-two {
+  background-color: white;
+  width: 250px;
+  height: 75px;
+  margin: 25px;
+}
+
+.button-three {
+  background-color: white;
+  width: 250px;
+  height: 75px;
+  margin: 25px;
+}
+
+.button-four {
+  background-color: white;
+  width: 250px;
+  height: 75px;
+  margin: 25px;
+}
+
+.button-five {
+  background-color: white;
+  width: 250px;
+  height: 75px;
+  margin: 25px;
+}
+
+div.col-4-4.col {
+  width: 300px !important;
+}
+
+.favorite-name-random {
+  color: black;
+}
+
+.real-random-one {
+  position: absolute !important;
+  left: 20px;
+}
+
+.user-name-random {
+  position: absolute;
+  left: 124px;
+  top: 47px;
+  margin: 0 auto !important;
+  color: grey;
+}
+
+.choose-text {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 9rem !important;
+  margin-bottom: 3rem;
+  color: white;
+  font-weight: 600;
+}
+
+.column-four.col {
+  width: 290px !important;
+}
+
+.btn.handle-button,
+.btn.topic-button {
+  color: white !important;
+  margin-right: 10px;
+}
+
+.search-container {
+  margin-top: 5rem;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 0;
+  background: rgba(94, 94, 94, 0.5) !important;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.search-input::placeholder {
+  color: rgb(158, 158, 158);
+  font-weight: 500;
+
+}
+
+.search-input,
+select,
+textarea {
+  color: white !important;
+}
+
+.search-input:focus {
+  background: rgba(94, 94, 94, 0.5) !important;
+}
+
+.search-input,
+select,
+textarea:focus {
+  background: rgba(94, 94, 94, 0.5) !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  border-color: rgb(211, 211, 211) !important;
+}
+
+form.search-form {
+
+}
+
+.btn.topic-button {
+  margin: 0px 5px 0px 50px;
+}
+
+@media (min-width: 776px) {
+  .btn.eckhart-random {
+    margin: 5px 30px 5px 30px !important;
+    width: 200px;
+    height: 115px;
+  }
+
+  .btn.questlove-random {
+    margin: 5px 30px 5px 30px;
+    width: 200px;
+    height: 115px;
+  }
+
+  .btn.yuval-random {
+    margin: 5px 30px 5px 30px;
+    width: 200px;
+    height: 115px;
+  }
+  .btn.stevie-random {
+    margin: 5px 30px 5px 30px;
+    width: 200px;
+    height: 115px;
+  }
+  .btn.bob-random {
+    margin: 5px 30px 5px 30px;
+    width: 200px;
+    height: 115px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .card-row {
+    display: block !important;
+  }
+  .col-4 {
+    margin: 10px 10px !important;
+  }
+
+  .btn.eckhart-random {
+    margin: 5px 30px 5px 30px !important;
+    width: 125px;
+    height: 100px;
+  }
+
+  .btn.questlove-random {
+    margin: 5px 30px 5px 30px;
+    width: 125px;
+    height: 100px;
+  }
+
+  .btn.yuval-random {
+    margin: 5px 30px 5px 30px;
+    width: 125px;
+    height: 100px;
+  }
+  .btn.stevie-random {
+    margin: 5px 30px 5px 30px;
+    width: 125px;
+    height: 100px;
+  }
+  .btn.bob-random {
+    margin: 5px 30px 5px 30px;
+    width: 125px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .col-4 {
+    margin: 10px 10px !important;
+  }
+
+  .topic-button {
+    display: block;
+  }
+  .btn {
+    display: block;
+    margin: 0 auto !important;
+    width: 100%;
+    margin-bottom: 15px !important;
+  }
+
+  .btn.handle-button {
+    margin: 0px 5px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .search-container {
+    margin-top: 5rem;
+  }
+  .form-control {
+    width: 100% !important;
+  }
+
+  .row {
+    margin: 0;
+  }
+  .welcome-text {
+    padding: 0px 40px;
+    line-height: 1;
+    font-size: 3rem;
+  }
+
+  h6.d-block.describe {
+    padding: 0px 40px;
+  }
+  .form-group {
+    margin: 20px 20px 20px 40px !important;
+  }
+  .tweet-row {
+    height: 350px;
+    margin: 10px;
+  }
+  .tweet-text {
+    margin-left: 59px;
+  }
+  .tweet-col {
+    padding: 0px 0px 0px 0px !important;
+    margin-right: 20px !important;
+  }
+
+  .choose-text {
+    font-size: 1.3rem;
+    padding: 0 50px;
+  }
+
+  .btn {
+    width: 76%;
+    display: block;
+    margin: 0 auto !important;
+    margin-bottom: 15px !important;
+  }
+
+  .btn.handle-button {
+    margin: 0px 10px 10px 0px;
+  }
+
+  .btn.topic-button {
+    margin: 0px 5px 10px 10px;
+  }
+
+  .col {
+    padding: 0px 0px;
+  }
+
+  .d-inline.real-name.ml-1.mt-1 {
+    font-size: 0.9rem !important;
+  }
+
+  .d-inline.ml-2.user-handle {
+    font-size: 0.9rem !important;
+  }
+
+  .welcome-splash {
+    font-size: 2.4rem;
+    padding: 0px 30px;
+  }
+  .d-block.describe {
+    padding: 0px 20px;
+  }
+
+  .text-left {
+    font-size: 0.8rem !important;
+  }
+
+  .btn.eckhart-random {
+    margin: 5px 30px 5px 30px !important;
+    width: 100px;
+    height: 95px;
+  }
+
+  .btn.questlove-random {
+    margin: 5px 30px 5px 30px;
+    width: 100px;
+    height: 95px;
+  }
+
+  .btn.yuval-random {
+    margin: 5px 30px 5px 30px;
+    width: 100px;
+    height: 95px;
+  }
+  .btn.stevie-random {
+    margin: 5px 30px 5px 30px;
+    width: 100px;
+    height: 95px;
+  }
+  .btn.bob-random {
+    margin: 5px 30px 5px 30px;
+    width: 100px;
+    height: 95px;
+  }
+  .container {
+    color: white;
+    margin-top: 100px;
+    padding: 0px 0px !important;
+    width: 100%;
+    height: 100%;
+  }
+  div.container-random.container-fluid{
+    padding: 0px 0px;
+    margin-top: 200px !important;
+  }
+
+  .tweet-card.container {
+    margin: 0px 0px;
+  }
+
+  .tweet-date {
+    color: grey;
+    position: absolute;
+    top: 32px;
+    left: 55px;
+  }
+
+  .search-input {
+    margin-right: 20px !important;
+    margin: 0 auto;
+    width: 253px !important;
+  }
+}

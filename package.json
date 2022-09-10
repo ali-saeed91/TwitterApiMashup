@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "muchow-concrete-react",
+  "main": "server.js",
+  "engines": {
+    "node": "12.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run watch --prefix client",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "heroku-prebuild": "npm i --prefix client && npm run build --prefix client",
+    "heroku-postbuild": "echo This runs afterwards."
+  },
+  "keywords": [
+    "twitter-app"
+  ],
+  "author": "Reid Muchow",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "styled-components": "^5.3.5",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "cra-build-watch": "^3.2.0",
+    "nodemon": "^2.0.3"
+  }
+}

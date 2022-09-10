@@ -1,0 +1,23 @@
+
+input {
+    width: 20em;
+    height: 2.5em;
+    border-radius: 100pc;
+    padding-left: 70px;
+    border: 1px;
+    background-color: #273339;
+    color: white;
+    outline: none;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.searchIcon {
+    position: relative;
+    left: 55px;
+    top: 6px;
+    width: 24px;
+}

@@ -1,0 +1,23 @@
+.circle {
+  background-color: white;
+  width: 100px;
+  height: 2.5em;
+  border-radius: 100px;
+  margin-left: 29px;
+  margin-right: -54px;
+  margin-bottom: 10px;
+  
+}
+
+.elipse {
+  width: 30px;
+  height: 28px;
+  background-color: #273340;
+  margin-left: 13px;
+  margin-top: 6px;
+  border-radius: 68px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  margin-bottom:px;
+}
